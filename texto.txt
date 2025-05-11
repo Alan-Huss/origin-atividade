@@ -1,2 +1,4 @@
 "Passo 3" -> uma linha qualquer de conteúdo
 "Passo 5" -> mesma linha do passo 4
+"Passo 4" -> conteúdo alterado 
+"Passo 7" -> ---- conflito resolvido ----
