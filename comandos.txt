@@ -1,0 +1,28 @@
+Nome Completo: Alan Huss da Silva Lopes
+
+mkdir Tarefa_2
+cd Tarefa_2/
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+ls
+cd curso-branchs-ifrn-ead/
+git config --local user.name 'Alan Lopes'
+git config --local user.mail 'alanhuss@ymail.com'
+git add texto.txt
+git commit -m "commit do passo 3"
+git branch feature-1
+git switch feature-1
+git add texto.txt
+git commit -m "commit do passo 4"
+git switch main
+git add texto.txt
+git commit -m "commit do passo 5"
+git merge feature-1
+git add texto.txt
+git commit -m "commit do passo 8"
+git checkout -b add-comandos
+git add comandos.txt
+git commit -m "commit do passo 10"
+git switch main
+git remote add origin-github https://github.com/Alan-Huss/origin-atividade.git
+git push -u origin-github main
+git push --all
